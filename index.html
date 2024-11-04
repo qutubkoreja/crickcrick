@@ -7,6 +7,14 @@
     <meta name="description" content="Watch live cricket matches and stay updated with the latest scores, highlights, and news. TouchCrick brings you real-time streaming of all major cricket events.">
     <meta name="keywords" content="live cricket, cricket streaming, cricket scores, TouchCrick, watch cricket online, live cricket updates, cricket highlights, cricket news">
     <link rel="stylesheet" href="style.css">
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelector('.start-stream').addEventListener('click', function(event) {
+                event.preventDefault(); // Prevent default link behavior
+                window.location.href = "//stream.crichd.sc/update/willowcricket.php"; // Redirect to stream
+            });
+        });
+    </script>
 </head>
 <body>
 
