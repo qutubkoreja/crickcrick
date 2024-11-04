@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     document.getElementById('continue').addEventListener('click', function() {
-        window.location.href = "//stream.crichd.sc/update/willowcricket.php"; // Redirect to stream
+        window.location.href = "https://me.webcric.com/willow.htm"; // Redirect to stream
     });
 
     document.getElementById('cancel').addEventListener('click', function() {
